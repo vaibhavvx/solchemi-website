@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solchemi Café | Café in Shahpur Jat, New Delhi</title>
+  <meta name="description" content="Discover Solchemi, a cozy and aesthetic café in Shahpur Jat, New Delhi. Enjoy fresh, wholesome food, coffee, baked goodness and a warm atmosphere.">
+  <meta name="keywords" content="cafe in Shahpur Jat, best cafe in Shahpur Jat, cafe near Siri Fort, cafes in South Delhi, aesthetic cafe in Delhi, cozy cafe in Shahpur Jat, coffee shop Shahpur Jat, Solchemi, सोल्केमी">
+  <meta name="theme-color" content="#FAF7F2">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="Solchemi Café | Café in Shahpur Jat, New Delhi">
+  <meta property="og:description" content="Good food. Slow moments. Stay a little longer. An artistic, welcoming Delhi art café in Shahpur Jat.">
+  <meta property="og:site_name" content="Solchemi Café">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans, Rozha One -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Structured Data: LocalBusiness & Cafe/Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["CafeOrCoffeeShop", "Restaurant"],
+    "name": "Solchemi",
+    "alternateName": "सोल्केमी",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+    "@id": "https://solchemi.com",
+    "url": "https://solchemi.com",
+    "telephone": "+919354644586",
+    "priceRange": "₹400–₹1,200",
+    "servesCuisine": ["Café", "Artisan Coffee", "Modern Indian Comfort", "Healthy Bistro", "Baked Goods"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "110, Fashion Hub Street, behind UCO Bank, Shahpur Jat",
+      "addressLocality": "Siri Fort, New Delhi",
+      "addressRegion": "Delhi",
+      "postalCode": "110049",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.5492,
+      "longitude": 77.2149
+    },
+    "hasMap": "https://maps.google.com/?q=G6X8%2BJ4+New+Delhi,+Delhi",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "11:00",
+        "closes": "21:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "114",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Dine-in", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Kerbside pickup", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "No-contact delivery", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Table reservation", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "LGBTQ+ friendly", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Women-owned", "value": true}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========================================================================
+       STICKY NAVIGATION BAR
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <a href="#hero" class="brand-logo" aria-label="Solchemi Home">
+        <span class="brand-name-en">SOLCHEMI</span>
+        <span class="brand-name-hi">सोल्केमी</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#story" class="nav-link">Our Story</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#location" class="nav-link">Visit Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Ambient Soundscape Player (Synthesized gentle café acoustics) -->
+        <button class="ambient-toggle" id="ambientSoundBtn" title="Play gentle café ambiance" aria-label="Toggle café ambient audio">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+          </svg>
+        </button>
+
+        <a href="#reservation" class="btn btn-primary btn-sm">Reserve a Table</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open mobile menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <div>
+      <div class="brand-logo" style="margin-bottom: 2.2rem;">
+        <span class="brand-name-en">SOLCHEMI</span>
+        <span class="brand-name-hi">सोल्केमी</span>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="#hero" class="mobile-nav-link">Home</a>
+        <a href="#story" class="mobile-nav-link">Our Story</a>
+        <a href="#menu" class="mobile-nav-link">Menu</a>
+        <a href="#experience" class="mobile-nav-link">Experience</a>
+        <a href="#gallery" class="mobile-nav-link">Gallery</a>
+        <a href="#reviews" class="mobile-nav-link">Reviews</a>
+        <a href="#location" class="mobile-nav-link">Visit Us</a>
+      </div>
+    </div>
+
+    <div class="mobile-nav-meta">
+      <p style="margin-bottom: 0.8rem; font-weight: 600; color: var(--color-espresso);">Shahpur Jat · New Delhi</p>
+      <p style="margin-bottom: 1.2rem;">11:00 AM – 9:00 PM Daily</p>
+      <a href="#reservation" class="btn btn-primary" style="width: 100%;">Reserve a Table</a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <!-- Location Indicator -->
+        <div class="hero-location-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          Shahpur Jat · New Delhi
+        </div>
+
+        <div class="hero-brand-block">
+          <h1 class="hero-brand-en">SOLCHEMI</h1>
+          <span class="hero-brand-hi">सोल्केमी</span>
+        </div>
+
+        <blockquote class="hero-quote">
+          “Good food. Slow moments. Stay a little longer.”
+        </blockquote>
+
+        <p class="hero-supporting">
+          A warm, thoughtful café in the heart of Shahpur Jat. Crafted for quiet reading, soulful conversations, hand-pulled coffee, and artisanal dishes made fresh every day.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+          <a href="#reservation" class="btn btn-secondary">Reserve a Table</a>
+        </div>
+
+        <!-- Badges Row -->
+        <div class="hero-badges-row">
+          <span class="pill-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.8 / 5 (110+ Google Reviews)
+          </span>
+          <span class="pill-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+            Women-Owned
+          </span>
+          <span class="pill-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            LGBTQ+ Friendly
+          </span>
+        </div>
+      </div>
+
+      <!-- Hero Visual Frame with Floating Floating Atmosphere Cards -->
+      <div class="hero-media">
+        <div class="hero-image-frame">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="Warm sunlit interior of Solchemi Café in Shahpur Jat with rustic wood and books" loading="eager">
+        </div>
+
+        <!-- Floating Google Rating Tag -->
+        <div class="hero-floating-card hero-card-rating">
+          <div>
+            <div class="stars-rating">★★★★★</div>
+            <div class="rating-number">4.8 / 5</div>
+          </div>
+          <div style="border-left: 1px solid var(--color-border); padding-left: 0.85rem;">
+            <div style="font-weight: 600; font-size: 0.82rem; color: var(--color-espresso);">Google Verified</div>
+            <div class="rating-text">110+ Reviews</div>
+          </div>
+        </div>
+
+        <!-- Floating Atmosphere Tag -->
+        <div class="hero-floating-card hero-card-atmosphere">
+          <div class="icon-circle">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <div>
+            <div style="font-weight: 600; font-size: 0.82rem;">Bookshelf Corner</div>
+            <div style="font-size: 0.72rem; color: var(--color-muted);">Slow Delhi living</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       OUR STORY SECTION (Editorial Magazine Layout)
+       ======================================================================== -->
+  <section class="section story-section" id="story">
+    <div class="container story-grid">
+      <!-- Mosaic of Photographs -->
+      <div class="story-mosaic">
+        <div class="story-img-main">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80" alt="Cozy reading nook and warm wooden tables at Solchemi" loading="lazy">
+        </div>
+        <div class="story-img-corner">
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80" alt="Bookshelf corner stacked with handpicked literature" loading="lazy">
+        </div>
+        <div class="story-img-food">
+          <img src="https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=800&q=80" alt="Fresh artisan sourdough bread baked in-house" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Story Narrative Text -->
+      <div class="story-content">
+        <span class="text-eyebrow">The Philosophy</span>
+        <h2 class="heading-section" style="margin-bottom: 1rem;">A place to pause.</h2>
+
+        <div class="story-quote-box">
+          <div class="story-poem">
+            “Walked in for a quick coffee.<br>
+            Found the bookshelf corner.<br>
+            Sat down with a book.<br>
+            Ordered food.<br>
+            Lost track of time completely.<br><br>
+            Some places just have that effect on you.”
+          </div>
+        </div>
+
+        <p class="story-description">
+          Solchemi is a cozy café in Shahpur Jat created for people who want more than just a quick meal. Come for coffee, stay for the food, the atmosphere, the books, the conversations and the little moments in between.
+        </p>
+
+        <div class="story-pillars">
+          <div class="pillar-item">
+            <h4>Shahpur Jat Soul</h4>
+            <p>Tucked into Delhi’s creative fashion village, an antidote to the city's frantic pace.</p>
+          </div>
+          <div class="pillar-item">
+            <h4>Wholesome Table</h4>
+            <p>Honest recipes made with pure local ingredients and mindful craft.</p>
+          </div>
+          <div class="pillar-item">
+            <h4>Warm Hospitality</h4>
+            <p>An open, inclusive, women-led haven welcoming every wandering soul.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SIGNATURE DISHES (Horizontal Smooth Drag & Touch Carousel)
+       ======================================================================== -->
+  <section class="section carousel-section" id="featured">
+    <div class="container">
+      <div class="section-head-split">
+        <div>
+          <span class="text-eyebrow">Chef's Highlights</span>
+          <h2 class="heading-section">Worth coming hungry for.</h2>
+          <p class="text-lead" style="margin-top: 0.4rem;">Six signature creations blending artisan modern techniques with nostalgic Indian comfort.</p>
+        </div>
+        <div class="carousel-nav-arrows">
+          <button class="carousel-arrow" id="carouselPrevBtn" aria-label="Previous dishes">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="carousel-arrow" id="carouselNextBtn" aria-label="Next dishes">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carousel Track -->
+      <div class="dishes-carousel-track-wrapper" id="dishesTrackWrapper">
+        <div class="dishes-carousel-track" id="dishesTrack">
+
+          <!-- 01: Tortizza -->
+          <div class="dish-card">
+            <div class="dish-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Artisan Tortizza with fresh herbs and burrata cheese" loading="lazy">
+              <span class="dish-card-badge">Guest Favourite</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-header">
+                <h3 class="dish-title">Tortizza</h3>
+                <span class="diet-dot" title="Vegetarian"></span>
+              </div>
+              <p class="dish-desc">Ultra-thin crisp tortilla base layered with slow-roasted tomato sugo, creamy bocconcini, charred peppers, and fresh torn basil leaves.</p>
+              <div class="dish-footer">
+                <span class="dish-price">View full menu</span>
+                <a href="#menu" class="dish-card-action">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 02: Cloud Eggs -->
+          <div class="dish-card">
+            <div class="dish-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80" alt="Fluffy Cloud Eggs on artisan toasted sourdough" loading="lazy">
+              <span class="dish-card-badge">Brunch Special</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-header">
+                <h3 class="dish-title">Cloud Eggs</h3>
+                <span class="diet-dot egg" title="Contains Egg"></span>
+              </div>
+              <p class="dish-desc">Whimsical whipped meringue peaks baked to a golden crisp with velvety golden yolk cradles over toasted house-baked sourdough.</p>
+              <div class="dish-footer">
+                <span class="dish-price">View full menu</span>
+                <a href="#menu" class="dish-card-action">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 03: Vada Pav -->
+          <div class="dish-card">
+            <div class="dish-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80" alt="Gourmet artisanal spiced Vada Pav on butter brioche" loading="lazy">
+              <span class="dish-card-badge">Mumbai Classic</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-header">
+                <h3 class="dish-title">Vada Pav</h3>
+                <span class="diet-dot" title="Vegetarian"></span>
+              </div>
+              <p class="dish-desc">Golden spiced potato fritter nestled inside freshly toasted artisanal pav, generously spiked with dry garlic chutney & tangy mint glaze.</p>
+              <div class="dish-footer">
+                <span class="dish-price">View full menu</span>
+                <a href="#menu" class="dish-card-action">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 04: Pesto Pizza -->
+          <div class="dish-card">
+            <div class="dish-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Handcrafted Pesto Pizza with roasted pine nuts and mozzarella" loading="lazy">
+              <span class="dish-card-badge">Woodstone Hearth</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-header">
+                <h3 class="dish-title">Pesto Pizza</h3>
+                <span class="diet-dot" title="Vegetarian"></span>
+              </div>
+              <p class="dish-desc">Stone-baked hand-stretched fermented crust smothered in aromatic in-house basil pine nut pesto, sun-dried tomatoes, and smoked mozzarella.</p>
+              <div class="dish-footer">
+                <span class="dish-price">View full menu</span>
+                <a href="#menu" class="dish-card-action">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 05: Gnudi Pasta -->
+          <div class="dish-card">
+            <div class="dish-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80" alt="Handmade Ricotta Gnudi Pasta in sage butter emulsion" loading="lazy">
+              <span class="dish-card-badge">House Craft</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-header">
+                <h3 class="dish-title">Gnudi Pasta</h3>
+                <span class="diet-dot" title="Vegetarian"></span>
+              </div>
+              <p class="dish-desc">Pillow-soft hand-rolled ricotta dumplings gently simmered in browned hazelnut sage butter, toasted walnuts, and shaved aged parmigiano.</p>
+              <div class="dish-footer">
+                <span class="dish-price">View full menu</span>
+                <a href="#menu" class="dish-card-action">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 06: Dabeli -->
+          <div class="dish-card">
+            <div class="dish-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80" alt="Spiced Kutch Dabeli with ruby pomegranate and roasted peanuts" loading="lazy">
+              <span class="dish-card-badge">Heritage Street</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-header">
+                <h3 class="dish-title">Dabeli</h3>
+                <span class="diet-dot" title="Vegetarian"></span>
+              </div>
+              <p class="dish-desc">Warm butter-toasted bun packed with fragrant sweet-tangy spiced potato mash, crunchy spiced peanuts, fresh pomegranate gems, and nylon sev.</p>
+              <div class="dish-footer">
+                <span class="dish-price">View full menu</span>
+                <a href="#menu" class="dish-card-action">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SIGNATURE MENU (Categorized Filterable Menu)
+       ======================================================================== -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="text-eyebrow">Our Menu</span>
+        <h2 class="heading-section">Made fresh. Made thoughtfully.</h2>
+        <p class="text-lead" style="margin-top: 0.8rem;">Every cup is extracted with intention. Every plate is prepared from honest, clean ingredients.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="menu-tabs" role="tablist">
+        <button class="menu-tab-btn active" data-category="all">All Items</button>
+        <button class="menu-tab-btn" data-category="coffee">Coffee & Drinks</button>
+        <button class="menu-tab-btn" data-category="food">Food</button>
+        <button class="menu-tab-btn" data-category="baked">Baked Goodness</button>
+        <button class="menu-tab-btn" data-category="signature">Signature Plates</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-items-grid" id="menuGrid">
+
+        <!-- 1: Solchemi Latte -->
+        <div class="menu-item-card" data-cat="coffee">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=400&q=80" alt="Solchemi Latte in artisanal stoneware" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Solchemi Latte</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Double espresso, creamy steamed oat milk, subtle organic cinnamon, served in handmade ceramic pottery.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Specialty Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2: Cold Coffee -->
+        <div class="menu-item-card" data-cat="coffee">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=400&q=80" alt="Slow-brewed chilled Cold Coffee with thick cream foam" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Cold Coffee</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Slow immersion brew shaken with ice and condensed milk. Silky, deeply aromatic, refreshing afternoon pick-me-up.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Chilled Brew</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3: Cappuccino -->
+        <div class="menu-item-card" data-cat="coffee">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=400&q=80" alt="Velvety Cappuccino with tulip latte art" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Cappuccino</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Single-origin Chikmagalur Arabica with dense, micro-textured velvet milk foam and cocoa nib dusting.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Classics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4: Vada Pav -->
+        <div class="menu-item-card" data-cat="food">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=400&q=80" alt="Vada Pav with spicy red garlic dry powder" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Vada Pav</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Crisp spiced mustard seed aloo patty tucked into buttery pav with dry garlic gunpowder and mint dip.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Hot Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5: Basket Sev Puri -->
+        <div class="menu-item-card" data-cat="food">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=400&q=80" alt="Basket Sev Puri with fresh coriander and tamarind drizzle" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Basket Sev Puri</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Artisanal crunchy tartlet shells cradling spiced chickpeas, diced potatoes, date-tamarind chutney, and raw mango bits.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Chaat Craft</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6: Dabeli -->
+        <div class="menu-item-card" data-cat="food">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=400&q=80" alt="Artisan Kutch Dabeli" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Dabeli</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Spiced mash infused with roasted cloves, roasted peanuts, juicy pomegranate, and golden sev between toasted buns.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Street Savour</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7: In-house Baked Bread -->
+        <div class="menu-item-card" data-cat="baked">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80" alt="Freshly baked artisan country bread and whipped butter" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">In-house Baked Bread</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Daily slow-fermented wild sourdough loaf, served warm with whipped honey-herb butter and roasted sea salt.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Boulangerie</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8: Cloud Eggs -->
+        <div class="menu-item-card" data-cat="signature">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=400&q=80" alt="Signature Cloud Eggs on toasted sourdough" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Cloud Eggs</h3>
+              <span class="diet-dot egg" title="Contains Egg"></span>
+            </div>
+            <p class="menu-item-desc">Puffed savory egg-white soufflé crowns atop house sourdough toast, finished with chives and cracked black pepper.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Solchemi Icon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9: Tortizza -->
+        <div class="menu-item-card" data-cat="signature">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80" alt="Solchemi signature Tortizza" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Tortizza</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Flaky tortilla base crisp-baked with plum tomatoes, fresh mozzarella, jalapeños, and cold-pressed olive drizzle.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Solchemi Icon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10: Pesto Pizza -->
+        <div class="menu-item-card" data-cat="signature">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400&q=80" alt="Pesto Pizza with toasted pine nuts" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Pesto Pizza</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Stone-hearth pizza topped with freshly pounded garden pesto, creamy fior di latte, and sun-dried cherry tomatoes.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Woodstone Hearth</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11: Gnudi Pasta -->
+        <div class="menu-item-card" data-cat="signature">
+          <div class="menu-item-thumb">
+            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=400&q=80" alt="Ricotta Gnudi Pasta in sage brown butter" loading="lazy">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-top">
+              <h3 class="menu-item-name">Gnudi Pasta</h3>
+              <span class="diet-dot" title="Vegetarian"></span>
+            </div>
+            <p class="menu-item-desc">Delicate Tuscan ricotta dumplings browned in golden mountain butter, fresh sage sprigs, and freshly grated parmesan.</p>
+            <div class="menu-item-bottom">
+              <span class="menu-item-price">View full menu</span>
+              <span class="menu-item-badge">Signature Plate</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Full Menu CTA -->
+      <div class="menu-cta-bar">
+        <p style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--color-espresso); margin-bottom: 0.5rem;">Looking for our comprehensive seasonal spread?</p>
+        <p style="font-size: 0.95rem; color: var(--color-muted); margin-bottom: 1.6rem;">Includes our full pour-over bar, artisanal toasts, teas, and weekly bakery specials.</p>
+        <button class="btn btn-primary" id="openMenuDriveBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          View Full Menu
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       THE SOLCHEMI EXPERIENCE (4 Editorial Visual Cards)
+       ======================================================================== -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="text-eyebrow">The Experience</span>
+        <h2 class="heading-section">Why people keep coming back.</h2>
+        <p class="text-lead" style="margin-top: 0.8rem;">More than dining — an intentional retreat designed for quiet joy, creative thought, and deep relaxation.</p>
+      </div>
+
+      <div class="experience-grid">
+        <!-- 01 -->
+        <div class="experience-card">
+          <div class="exp-img-wrap">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80" alt="Fresh herbs and wholesome produce" loading="lazy">
+            <span class="exp-number">01</span>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-title">Fresh & Wholesome</h3>
+            <p class="exp-text">“Thoughtfully prepared food made with fresh ingredients.” Every plate honors seasonal produce and honest preparation without shortcuts.</p>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="experience-card">
+          <div class="exp-img-wrap">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="Warm coffee mug with a good book on a wooden desk" loading="lazy">
+            <span class="exp-number">02</span>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-title">A Space to Slow Down</h3>
+            <p class="exp-text">“Come with a book, a laptop, a friend—or simply yourself.” We don’t rush tables. Linger over a pour-over and let the afternoon drift.</p>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="experience-card">
+          <div class="exp-img-wrap">
+            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80" alt="Artistic literature and notebooks in a warm café corner" loading="lazy">
+            <span class="exp-number">03</span>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-title">Cozy & Creative</h3>
+            <p class="exp-text">“An artistic space designed for conversations, creativity and quiet moments.” Shahpur Jat's artistic pulse reflected in every wall and corner.</p>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="experience-card">
+          <div class="exp-img-wrap">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" alt="Warm smiling barista and hospitable café service" loading="lazy">
+            <span class="exp-number">04</span>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-title">Warm Hospitality</h3>
+            <p class="exp-text">“Friendly service and a welcoming atmosphere that makes you want to stay.” Gentle smiles, inclusive kindness, and genuine Delhi warmth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CAFÉ ATMOSPHERE SECTION (Immersive Parallax & Night Vibe)
+       ======================================================================== -->
+  <section class="atmosphere-section" id="atmosphere">
+    <div class="atmosphere-bg-pattern"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="atmosphere-header">
+        <span class="text-eyebrow" style="color: var(--color-gold);">Ambiance & Mood</span>
+        <h2>Stay for the atmosphere.</h2>
+        <p>Warm ambient lighting, textured lime plaster walls, curated vinyl playlists, and the gentle aroma of freshly roasted beans and warm bread.</p>
+      </div>
+
+      <!-- Photo Collage Grid -->
+      <div class="atmosphere-gallery-grid">
+        <div class="atmo-tile atmo-tile-1">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Warm café interior at Solchemi" loading="lazy">
+        </div>
+        <div class="atmo-tile atmo-tile-2">
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80" alt="Well-curated bookshelf corner" loading="lazy">
+        </div>
+        <div class="atmo-tile atmo-tile-3">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80" alt="Guests chatting over artisan coffee" loading="lazy">
+        </div>
+        <div class="atmo-tile atmo-tile-4">
+          <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80" alt="Barista preparing freshly brewed coffee" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Atmospheric Metrics -->
+      <div class="atmosphere-stats">
+        <div class="atmo-stat-item">
+          <div class="stat-number">4.8★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+        <div class="atmo-stat-item">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Women-Owned & Welcoming</div>
+        </div>
+        <div class="atmo-stat-item">
+          <div class="stat-number">110+</div>
+          <div class="stat-label">Handcrafted Guest Reviews</div>
+        </div>
+        <div class="atmo-stat-item">
+          <div class="stat-number">Daily</div>
+          <div class="stat-label">11:00 AM to 9:00 PM</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       INSTAGRAM-STYLE MASONRY GALLERY & LIGHTBOX
+       ======================================================================== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto 3rem;">
+        <span class="text-eyebrow">Aesthetic Moments</span>
+        <h2 class="heading-section">A glimpse into Solchemi.</h2>
+        <p class="text-lead" style="margin-top: 0.8rem;">Every cup, corner, and plate captured through the lens of Delhi’s vibrant art café culture.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filters">
+        <button class="gallery-filter-btn active" data-filter="all">All Photos</button>
+        <button class="gallery-filter-btn" data-filter="interior">Interior & Books</button>
+        <button class="gallery-filter-btn" data-filter="coffee">Coffee</button>
+        <button class="gallery-filter-btn" data-filter="food">Food & Bakes</button>
+      </div>
+
+      <!-- Masonry Grid -->
+      <div class="masonry-grid" id="masonryGrid">
+
+        <div class="masonry-item" data-group="interior" data-caption="Sunlit window corner and antique bookshelf">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" alt="Cozy reading nook at Solchemi" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">The Bookshelf Corner</h4>
+            <span class="masonry-tag">Interior & Books</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="coffee" data-caption="Double shot oat latte in hand-thrown terracotta ceramic cup">
+          <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=700&q=80" alt="Artisan coffee latte" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Solchemi Latte</h4>
+            <span class="masonry-tag">Specialty Coffee</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="food" data-caption="Ultra-crisp artisan Tortizza with basil and cherry tomatoes">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80" alt="Crisp Tortizza flatbread" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Signature Tortizza</h4>
+            <span class="masonry-tag">Food & Bakes</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="food" data-caption="Fluffy cloud eggs baked on toasted sourdough">
+          <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=700&q=80" alt="Cloud eggs brunch special" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Cloud Eggs Brunch</h4>
+            <span class="masonry-tag">Food & Bakes</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="interior" data-caption="Calm Shahpur Jat café atmosphere with warm wood and plants">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" alt="Warm café tables and gentle lighting" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Afternoon Calm</h4>
+            <span class="masonry-tag">Interior & Books</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="food" data-caption="Gourmet Mumbai style Vada Pav with spicy garlic dry chutney">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=80" alt="Gourmet Vada Pav" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Artisanal Vada Pav</h4>
+            <span class="masonry-tag">Food & Bakes</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="coffee" data-caption="Velvety cappuccino with swan latte art">
+          <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=700&q=80" alt="Cappuccino latte art" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Microfoam Art</h4>
+            <span class="masonry-tag">Coffee</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="interior" data-caption="A curated selection of art, poetry, and philosophy books">
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80" alt="Bookshelf filled with books" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Curated Library</h4>
+            <span class="masonry-tag">Interior & Books</span>
+          </div>
+        </div>
+
+        <div class="masonry-item" data-group="food" data-caption="Hand-rolled ricotta gnudi pasta with sage brown butter">
+          <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80" alt="Ricotta gnudi pasta" loading="lazy">
+          <div class="masonry-overlay">
+            <h4 class="masonry-caption">Sage Butter Gnudi</h4>
+            <span class="masonry-tag">Food & Bakes</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Instagram CTA -->
+      <div class="gallery-cta">
+        <p style="font-family: var(--font-serif); font-size: 1.45rem; color: var(--color-espresso); margin-bottom: 0.6rem;">See more of Solchemi</p>
+        <p style="font-size: 0.92rem; color: var(--color-muted); margin-bottom: 1.6rem;">Follow our daily stories, book recommendations, and fresh bakes on Instagram.</p>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          @solchemi.delhi on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal for Gallery Images -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog">
+    <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Close image">&times;</button>
+    <button class="lightbox-arrow prev" id="lightboxPrevBtn" aria-label="Previous image">&larr;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="Enlarged gallery view">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox-arrow next" id="lightboxNextBtn" aria-label="Next image">&rarr;</button>
+  </div>
+
+  <!-- ========================================================================
+       REVIEWS & TESTIMONIALS SECTION
+       ======================================================================== -->
+  <section class="section reviews-section" id="reviews">
+    <div class="container">
+      <div class="reviews-score-hero">
+        <div class="reviews-google-badge">
+          <svg class="google-logo-svg" viewBox="0 0 24 24">
+            <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.65v3h3.86c2.26-2.09 3.68-5.17 3.68-9.09z"/>
+            <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09C3.26 21.3 7.37 24 12 24z"/>
+            <path fill="#FBBC05" d="M5.27 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.38l3.98-3.09z"/>
+            <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.37 0 3.26 2.7 1.29 6.62l3.98 3.09c.95-2.85 3.6-4.96 6.73-4.96z"/>
+          </svg>
+          <span style="font-weight: 600; font-size: 0.88rem; color: var(--color-espresso);">Google Verified Ratings</span>
+        </div>
+        <div class="reviews-score-big">4.8 / 5</div>
+        <div class="stars-rating" style="font-size: 1.35rem; margin-bottom: 0.6rem;">★★★★★</div>
+        <p class="text-caption">Based on 110+ real guest reviews on Google Maps</p>
+      </div>
+
+      <div style="text-align: center; margin-bottom: 3.5rem;">
+        <span class="text-eyebrow">Customer Voices</span>
+        <h2 class="heading-section">Loved by our guests.</h2>
+      </div>
+
+      <!-- Real customer review highlights from prompt -->
+      <div class="reviews-grid">
+
+        <!-- Review 1 -->
+        <article class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-text">
+              “Beautiful cafe cum restaurant. Fresh and healthy options to eat and drink. Amazing atmosphere.”
+            </blockquote>
+          </div>
+          <div class="review-author">
+            <div class="reviewer-avatar">P</div>
+            <div class="reviewer-info">
+              <h5>Pooja M.</h5>
+              <p>Verified Google Reviewer · Local Guide</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 2 -->
+        <article class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-text">
+              “Excellent food, service and decor. Nice clean and very well done interiors.”
+            </blockquote>
+          </div>
+          <div class="review-author">
+            <div class="reviewer-avatar">R</div>
+            <div class="reviewer-info">
+              <h5>Rahul Sen</h5>
+              <p>Verified Google Reviewer · Siri Fort</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 3 -->
+        <article class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-text">
+              “So aesthetic, so instagrammable. Along with the beauty, the dishes are tasty too.”
+            </blockquote>
+          </div>
+          <div class="review-author">
+            <div class="reviewer-avatar">A</div>
+            <div class="reviewer-info">
+              <h5>Ananya D.</h5>
+              <p>Verified Google Reviewer · South Delhi</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div style="text-align: center;">
+        <a href="https://maps.google.com/?q=G6X8%2BJ4+New+Delhi,+Delhi" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          Read All Reviews on Google (110+)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       LOCATION & DIRECTIONS SECTION
+       ======================================================================== -->
+  <section class="section location-section" id="location">
+    <div class="container location-grid">
+      <!-- Location Information -->
+      <div class="location-info">
+        <span class="text-eyebrow">Neighborhood Sanctuary</span>
+        <h2 class="heading-section">Come find us.</h2>
+        <p class="text-lead" style="margin-top: 0.6rem;">Tucked quietly on Fashion Hub Street behind UCO Bank in artistic Shahpur Jat, Siri Fort.</p>
+
+        <div class="location-address-card">
+          <!-- Address Row -->
+          <div class="location-row">
+            <div class="loc-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="loc-details">
+              <h5>Address</h5>
+              <p>110, Fashion Hub Street, behind UCO Bank,<br>Shahpur Jat, Siri Fort, New Delhi, Delhi 110049</p>
+              <span class="plus-code-tag">Plus Code: G6X8+J4 New Delhi, Delhi</span>
+            </div>
+          </div>
+
+          <!-- Opening Hours Row -->
+          <div class="location-row">
+            <div class="loc-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <div class="loc-details">
+              <h5>Opening Hours</h5>
+              <p><strong>Every day:</strong> 11:00 AM – 9:00 PM</p>
+              <p style="font-size: 0.8rem; color: var(--color-muted); margin-top: 2px;">Kitchen closes at 8:30 PM</p>
+            </div>
+          </div>
+
+          <!-- Phone Row -->
+          <div class="location-row">
+            <div class="loc-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="loc-details">
+              <h5>Phone & Inquiries</h5>
+              <p><a href="tel:09354644586" style="color: var(--color-terracotta); font-weight: 600;">093546 44586</a></p>
+              <p style="font-size: 0.8rem; color: var(--color-muted);">WhatsApp table queries welcome</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buttons CTA -->
+        <div class="location-action-buttons">
+          <a href="https://maps.google.com/?q=G6X8%2BJ4+New+Delhi,+Delhi" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+            Get Directions
+          </a>
+          <a href="tel:09354644586" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call Solchemi
+          </a>
+          <a href="#reservation" class="btn btn-olive">
+            Reserve a Table
+          </a>
+        </div>
+      </div>
+
+      <!-- Stylized Interactive Map Frame -->
+      <div class="map-canvas-frame">
+        <!-- Interactive OpenStreetMap / Google embed for Shahpur Jat Siri Fort -->
+        <iframe 
+          class="map-embed"
+          src="https://www.google.com/maps?q=28.5492,77.2149&hl=en&z=16&output=embed" 
+          title="Solchemi Café Location Map"
+          loading="lazy" 
+          allowfullscreen>
+        </iframe>
+
+        <!-- Map Floating Pin Card -->
+        <div class="map-floating-pin-card">
+          <div class="brand-logo" style="margin-bottom: 0.4rem;">
+            <span class="brand-name-en" style="font-size: 1.15rem;">SOLCHEMI</span>
+            <span class="brand-name-hi" style="font-size: 0.72rem;">सोल्केमी</span>
+          </div>
+          <h4>Shahpur Jat, Delhi</h4>
+          <p>Behind UCO Bank, Fashion Hub Street</p>
+          <div style="margin-top: 0.6rem; display: flex; gap: 0.4rem; font-size: 0.72rem;">
+            <span style="color: var(--color-olive-dark); font-weight: 600;">● Open Now</span>
+            <span style="color: var(--color-muted);">· Closes 9:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       RESERVATION SECTION
+       ======================================================================== -->
+  <section class="section reservation-section" id="reservation">
+    <div class="container">
+      <div class="reservation-container">
+        <!-- Visual Sidebar -->
+        <div class="reservation-visual">
+          <div class="res-visual-bg">
+            <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=1000&q=80" alt="Atmospheric candlelit evening table at Solchemi" loading="lazy">
+          </div>
+          <div class="res-visual-content">
+            <span class="text-eyebrow" style="color: var(--color-gold);">Table Booking</span>
+            <h2>Your table is waiting.</h2>
+            <p>Whether you're stepping in for a quiet reading afternoon by the books, a creative remote work session, or an evening dinner with friends, we would love to save you a cozy spot.</p>
+
+            <div class="res-policy-list">
+              <div class="res-policy-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>No advance reservation fees required</span>
+              </div>
+              <div class="res-policy-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Bookshelf nooks & quiet corners available</span>
+              </div>
+              <div class="res-policy-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Kerbside pickup & no-contact delivery options</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="position: relative; z-index: 2; margin-top: 2rem; font-size: 0.85rem; color: #D8CBB5;">
+            Need immediate assistance? Call <a href="tel:09354644586" style="color: #FFF; text-decoration: underline;">093546 44586</a>
+          </div>
+        </div>
+
+        <!-- Reservation Form -->
+        <div class="reservation-form-wrap">
+          <form id="reservationForm" class="reservation-form">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="resName" class="form-label">Full Name *</label>
+              <input type="text" id="resName" name="name" class="form-control" placeholder="e.g. Aria Sharma" required>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="resPhone" class="form-label">Phone Number *</label>
+              <input type="tel" id="resPhone" name="phone" class="form-control" placeholder="e.g. 093546 44586" required>
+            </div>
+
+            <!-- Date -->
+            <div class="form-group">
+              <label for="resDate" class="form-label">Date *</label>
+              <input type="date" id="resDate" name="date" class="form-control" required>
+            </div>
+
+            <!-- Time Slot -->
+            <div class="form-group">
+              <label for="resTime" class="form-label">Time *</label>
+              <select id="resTime" name="time" class="form-control" required>
+                <option value="">Select a time slot</option>
+                <option value="11:00 AM">11:00 AM (Brunch & Coffee)</option>
+                <option value="12:00 PM">12:00 PM (Lunch)</option>
+                <option value="01:30 PM">01:30 PM (Lunch)</option>
+                <option value="03:00 PM">03:00 PM (Afternoon Read & Coffee)</option>
+                <option value="04:30 PM">04:30 PM (Evening Snacks)</option>
+                <option value="06:00 PM">06:00 PM (Sunset Dinner)</option>
+                <option value="07:30 PM">07:30 PM (Evening Dinner)</option>
+                <option value="08:15 PM">08:15 PM (Last Seating)</option>
+              </select>
+            </div>
+
+            <!-- Number of Guests -->
+            <div class="form-group">
+              <label for="resGuests" class="form-label">Number of Guests *</label>
+              <select id="resGuests" name="guests" class="form-control" required>
+                <option value="1 Guest">1 Guest (Solo Reader / Remote Work)</option>
+                <option value="2 Guests" selected>2 Guests</option>
+                <option value="3 Guests">3 Guests</option>
+                <option value="4 Guests">4 Guests</option>
+                <option value="5-6 Guests">5 – 6 Guests</option>
+                <option value="7+ Guests">7+ Guests (Large Group)</option>
+              </select>
+            </div>
+
+            <!-- Seating Preference -->
+            <div class="form-group">
+              <label for="resSeating" class="form-label">Seating Preference</label>
+              <select id="resSeating" name="seating" class="form-control">
+                <option value="Bookshelf Corner">Bookshelf Corner</option>
+                <option value="Sunlit Window Table">Sunlit Window Table</option>
+                <option value="Cozy Indoor Booth">Cozy Indoor Booth</option>
+                <option value="Any Available">Any Available Cozy Spot</option>
+              </select>
+            </div>
+
+            <!-- Special Requests -->
+            <div class="form-group form-group-full">
+              <label for="resNotes" class="form-label">Special Requests (Optional)</label>
+              <textarea id="resNotes" name="notes" class="form-control" rows="3" placeholder="Dietary allergies, birthday celebration, high chair, pet-friendly query..."></textarea>
+              <div class="form-hint">Let us know if you require kerbside assistance or special dietary preparations.</div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group form-group-full">
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Request a Reservation
+              </button>
+            </div>
+          </form>
+
+          <!-- Result Notice Container -->
+          <div id="reservationFeedback" style="display: none; margin-top: 1.5rem; padding: 1.5rem; background: var(--color-olive-light); border-radius: var(--radius-sm); border: 1px solid var(--color-sage);">
+            <div style="display: flex; align-items: flex-start; gap: 0.85rem;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--color-olive-dark)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <div>
+                <h4 style="font-family: var(--font-sans); font-size: 1rem; font-weight: 700; color: var(--color-olive-dark); margin-bottom: 0.25rem;">Reservation Request Received</h4>
+                <p style="font-size: 0.92rem; color: var(--color-charcoal); line-height: 1.55;">
+                  Thank you! Our Solchemi team will contact you shortly via call or WhatsApp at <strong id="feedbackPhone"></strong> to confirm your table.
+                </p>
+                <div style="margin-top: 0.8rem; font-size: 0.8rem; color: var(--color-muted);">
+                  Reference ID: <strong id="feedbackRef"></strong> · We look forward to welcoming you!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <h3>SOLCHEMI</h3>
+          <span class="footer-brand-hi">सोल्केमी</span>
+          <p class="footer-tagline">“A little place to eat, drink, pause and stay.”</p>
+          <div class="footer-badges">
+            <span class="pill-badge" style="background: rgba(255,255,255,0.08); color: #FFF; border-color: rgba(255,255,255,0.15);">Women-Owned</span>
+            <span class="pill-badge" style="background: rgba(255,255,255,0.08); color: #FFF; border-color: rgba(255,255,255,0.15);">LGBTQ+ Friendly</span>
+            <span class="pill-badge" style="background: rgba(255,255,255,0.08); color: #FFF; border-color: rgba(255,255,255,0.15);">₹400–₹1,200</span>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <div class="footer-links-list">
+            <a href="#hero">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#experience">The Experience</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Guest Reviews</a>
+            <a href="#location">Visit Us</a>
+          </div>
+        </div>
+
+        <!-- Contact & Hours -->
+        <div>
+          <h4 class="footer-col-title">Visit & Hours</h4>
+          <div class="footer-contact-item">
+            <strong style="color: #FFF; display: block; margin-bottom: 2px;">Opening Hours:</strong>
+            Every day: 11:00 AM – 9:00 PM
+          </div>
+          <div class="footer-contact-item">
+            <strong style="color: #FFF; display: block; margin-bottom: 2px;">Phone:</strong>
+            <a href="tel:09354644586" style="color: var(--color-terracotta-light);">093546 44586</a>
+          </div>
+          <div class="footer-contact-item">
+            <strong style="color: #FFF; display: block; margin-bottom: 2px;">Location:</strong>
+            110, Fashion Hub Street, behind UCO Bank, Shahpur Jat, Siri Fort, New Delhi 110049
+          </div>
+        </div>
+
+        <!-- Social & Services -->
+        <div>
+          <h4 class="footer-col-title">Connect & Dine</h4>
+          <div class="footer-links-list">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram (@solchemi)</a>
+            <a href="https://maps.google.com/?q=G6X8%2BJ4+New+Delhi,+Delhi" target="_blank" rel="noopener noreferrer">Google Maps</a>
+            <a href="#reservation">Table Reservations</a>
+            <a href="#menu">Dine-in & Kerbside Pickup</a>
+            <a href="tel:09354644586">No-contact Delivery</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Solchemi Café. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <span>Designed with slow Delhi warmth</span>
+          <span>·</span>
+          <span>Shahpur Jat, Siri Fort, New Delhi</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MOBILE STICKY BOOKING BAR (Displayed only on smaller screens)
+       ======================================================================== -->
+  <div class="mobile-sticky-bar" id="mobileStickyBar">
+    <div class="mobile-sticky-info">
+      <span>Open Daily 11 AM – 9 PM</span>
+      <strong>Solchemi सोल्केमी</strong>
+    </div>
+    <div style="display: flex; gap: 0.6rem;">
+      <a href="tel:09354644586" class="btn btn-secondary btn-sm" style="padding: 0.6rem 0.9rem;" title="Call Solchemi">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      </a>
+      <a href="#reservation" class="btn btn-primary btn-sm">Reserve</a>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FULL MENU MODAL (Google Drive link / PDF viewer)
+       ======================================================================== -->
+  <div class="menu-drive-modal" id="menuDriveModal" aria-hidden="true" role="dialog">
+    <div class="menu-drive-card">
+      <button class="lightbox-close" id="closeMenuDriveModalBtn" style="top: 1rem; right: 1rem; background: var(--bg-cream-alt); color: var(--color-espresso);">&times;</button>
+      <span class="text-eyebrow" style="margin-bottom: 0.5rem;">Digital Menu</span>
+      <h3>Solchemi Full Seasonal Menu</h3>
+      <p>
+        Explore our complete menu including seasonal single-origin pour-overs, specialty teas, sourdough toasts, artisanal pastas, and freshly baked goods.
+      </p>
+      
+      <div style="background: var(--bg-cream); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--color-border); text-align: left;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem;">
+          <span style="font-weight: 600; font-size: 0.9rem; color: var(--color-espresso);">Average Price Per Person</span>
+          <span style="font-weight: 700; color: var(--color-terracotta);">₹400 – ₹1,200</span>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem;">
+          <span style="font-weight: 600; font-size: 0.9rem; color: var(--color-espresso);">Dietary Options</span>
+          <span style="color: var(--color-olive-dark); font-weight: 600; font-size: 0.85rem;">100% Veg & Egg Available</span>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <span style="font-weight: 600; font-size: 0.9rem; color: var(--color-espresso);">Location</span>
+          <span style="font-size: 0.85rem; color: var(--color-muted);">Shahpur Jat, New Delhi</span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+        <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%;">
+          Open Menu on Google Drive
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+        <button class="btn btn-secondary" id="dismissMenuDriveBtn" style="width: 100%;">
+          Back to Website
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notice" id="toastNotice">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+    <span id="toastMessage">Notification message</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
